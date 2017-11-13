@@ -12,4 +12,7 @@ class Mi_controlador extends CI_Controller {
 	{
 		$this->load->view('mi_primer_vista');
 	}
+	public function mi_funcion(){
+		$this->load->view('vista_con_bootstrap');
+	}
 }
